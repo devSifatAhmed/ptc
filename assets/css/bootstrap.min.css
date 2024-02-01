@@ -31,6 +31,8 @@
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))
+    ---: 0;
+    ----: 0;
 }
 
 *,
@@ -703,7 +705,7 @@ progress {
     margin-top: calc(var(--bs-gutter-y) * -1);
     margin-right: calc(var(--bs-gutter-x) * -.5);
     margin-left: calc(var(--bs-gutter-x) * -.5);
-    gap: var(---);
+    gap: var(----);
 }
 
 .row>* {
@@ -966,62 +968,62 @@ progress {
 
 .col-1 {
     flex: 0 0 auto;
-    width: 8.33333333%
+    width: calc(8.33333333% - var(---))
 }
 
 .col-2 {
     flex: 0 0 auto;
-    width: 16.66666667%
+    width: calc(16.66666667% - var(---))
 }
 
 .col-3 {
     flex: 0 0 auto;
-    width: 25%
+    width: calc(25% - var(---))
 }
 
 .col-4 {
     flex: 0 0 auto;
-    width: 33.33333333%
+    width: calc(33.33333333% - var(---))
 }
 
 .col-5 {
     flex: 0 0 auto;
-    width: 41.66666667%
+    width: calc(41.66666667% - var(---))
 }
 
 .col-6 {
     flex: 0 0 auto;
-    width: 50%
+    width: calc(50% - var(---))
 }
 
 .col-7 {
     flex: 0 0 auto;
-    width: 58.33333333%
+    width: calc(58.33333333% - var(---))
 }
 
 .col-8 {
     flex: 0 0 auto;
-    width: 66.66666667%
+    width: calc(66.66666667% - var(---))
 }
 
 .col-9 {
     flex: 0 0 auto;
-    width: 75%
+    width: calc(75% - var(---))
 }
 
 .col-10 {
     flex: 0 0 auto;
-    width: 83.33333333%
+    width: calc(83.33333333% - var(---))
 }
 
 .col-11 {
     flex: 0 0 auto;
-    width: 91.66666667%
+    width: calc(91.66666667% - var(---))
 }
 
 .col-12 {
     flex: 0 0 auto;
-    width: 100%
+    width: calc(100% - var(---))
 }
 
 .offset-1 {
@@ -1136,62 +1138,62 @@ progress {
 
     .col-sm-1 {
         flex: 0 0 auto;
-        width: 8.33333333%
+        width: calc(8.33333333% - var(---))
     }
-
+    
     .col-sm-2 {
         flex: 0 0 auto;
-        width: 16.66666667%
+        width: calc(16.66666667% - var(---))
     }
-
+    
     .col-sm-3 {
         flex: 0 0 auto;
-        width: 25%
+        width: calc(25% - var(---))
     }
-
+    
     .col-sm-4 {
         flex: 0 0 auto;
-        width: 33.33333333%
+        width: calc(33.33333333% - var(---))
     }
-
+    
     .col-sm-5 {
         flex: 0 0 auto;
-        width: 41.66666667%
+        width: calc(41.66666667% - var(---))
     }
-
+    
     .col-sm-6 {
         flex: 0 0 auto;
-        width: 50%
+        width: calc(50% - var(---))
     }
-
+    
     .col-sm-7 {
         flex: 0 0 auto;
-        width: 58.33333333%
+        width: calc(58.33333333% - var(---))
     }
-
+    
     .col-sm-8 {
         flex: 0 0 auto;
-        width: 66.66666667%
+        width: calc(66.66666667% - var(---))
     }
-
+    
     .col-sm-9 {
         flex: 0 0 auto;
-        width: 75%
+        width: calc(75% - var(---))
     }
-
+    
     .col-sm-10 {
         flex: 0 0 auto;
-        width: 83.33333333%
+        width: calc(83.33333333% - var(---))
     }
-
+    
     .col-sm-11 {
         flex: 0 0 auto;
-        width: 91.66666667%
+        width: calc(91.66666667% - var(---))
     }
-
+    
     .col-sm-12 {
         flex: 0 0 auto;
-        width: 100%
+        width: calc(100% - var(---))
     }
 
     .offset-sm-0 {
@@ -1486,62 +1488,62 @@ progress {
 
     .col-lg-1 {
         flex: 0 0 auto;
-        width: 8.33333333%
+        width: calc(8.33333333% - var(---))
     }
-
+    
     .col-lg-2 {
         flex: 0 0 auto;
-        width: 16.66666667%
+        width: calc(16.66666667% - var(---))
     }
-
+    
     .col-lg-3 {
         flex: 0 0 auto;
-        width: 25%
+        width: calc(25% - var(---))
     }
-
+    
     .col-lg-4 {
         flex: 0 0 auto;
-        width: 33.33333333%
+        width: calc(33.33333333% - var(---))
     }
-
+    
     .col-lg-5 {
         flex: 0 0 auto;
-        width: 41.66666667%
+        width: calc(41.66666667% - var(---))
     }
-
+    
     .col-lg-6 {
         flex: 0 0 auto;
-        width: 50%
+        width: calc(50% - var(---))
     }
-
+    
     .col-lg-7 {
         flex: 0 0 auto;
-        width: 58.33333333%
+        width: calc(58.33333333% - var(---))
     }
-
+    
     .col-lg-8 {
         flex: 0 0 auto;
-        width: 66.66666667%
+        width: calc(66.66666667% - var(---))
     }
-
+    
     .col-lg-9 {
         flex: 0 0 auto;
-        width: 75%
+        width: calc(75% - var(---))
     }
-
+    
     .col-lg-10 {
         flex: 0 0 auto;
-        width: 83.33333333%
+        width: calc(83.33333333% - var(---))
     }
-
+    
     .col-lg-11 {
         flex: 0 0 auto;
-        width: 91.66666667%
+        width: calc(91.66666667% - var(---))
     }
-
+    
     .col-lg-12 {
         flex: 0 0 auto;
-        width: 100%
+        width: calc(100% - var(---))
     }
 
     .offset-lg-0 {
@@ -1661,62 +1663,62 @@ progress {
 
     .col-xl-1 {
         flex: 0 0 auto;
-        width: 8.33333333%
+        width: calc(8.33333333% - var(---))
     }
-
+    
     .col-xl-2 {
         flex: 0 0 auto;
-        width: 16.66666667%
+        width: calc(16.66666667% - var(---))
     }
-
+    
     .col-xl-3 {
         flex: 0 0 auto;
-        width: 25%
+        width: calc(25% - var(---))
     }
-
+    
     .col-xl-4 {
         flex: 0 0 auto;
-        width: 33.33333333%
+        width: calc(33.33333333% - var(---))
     }
-
+    
     .col-xl-5 {
         flex: 0 0 auto;
-        width: 41.66666667%
+        width: calc(41.66666667% - var(---))
     }
-
+    
     .col-xl-6 {
         flex: 0 0 auto;
-        width: 50%
+        width: calc(50% - var(---))
     }
-
+    
     .col-xl-7 {
         flex: 0 0 auto;
-        width: 58.33333333%
+        width: calc(58.33333333% - var(---))
     }
-
+    
     .col-xl-8 {
         flex: 0 0 auto;
-        width: 66.66666667%
+        width: calc(66.66666667% - var(---))
     }
-
+    
     .col-xl-9 {
         flex: 0 0 auto;
-        width: 75%
+        width: calc(75% - var(---))
     }
-
+    
     .col-xl-10 {
         flex: 0 0 auto;
-        width: 83.33333333%
+        width: calc(83.33333333% - var(---))
     }
-
+    
     .col-xl-11 {
         flex: 0 0 auto;
-        width: 91.66666667%
+        width: calc(91.66666667% - var(---))
     }
-
+    
     .col-xl-12 {
         flex: 0 0 auto;
-        width: 100%
+        width: calc(100% - var(---))
     }
 
     .offset-xl-0 {
@@ -1833,65 +1835,65 @@ progress {
         flex: 0 0 auto;
         width: auto
     }
-
+    
     .col-xxl-1 {
         flex: 0 0 auto;
-        width: 8.33333333%
+        width: calc(8.33333333% - var(---))
     }
-
+    
     .col-xxl-2 {
         flex: 0 0 auto;
-        width: 16.66666667%
+        width: calc(16.66666667% - var(---))
     }
-
+    
     .col-xxl-3 {
         flex: 0 0 auto;
-        width: 25%
+        width: calc(25% - var(---))
     }
-
+    
     .col-xxl-4 {
         flex: 0 0 auto;
-        width: 33.33333333%
+        width: calc(33.33333333% - var(---))
     }
-
+    
     .col-xxl-5 {
         flex: 0 0 auto;
-        width: 41.66666667%
+        width: calc(41.66666667% - var(---))
     }
-
+    
     .col-xxl-6 {
         flex: 0 0 auto;
-        width: 50%
+        width: calc(50% - var(---))
     }
-
+    
     .col-xxl-7 {
         flex: 0 0 auto;
-        width: 58.33333333%
+        width: calc(58.33333333% - var(---))
     }
-
+    
     .col-xxl-8 {
         flex: 0 0 auto;
-        width: 66.66666667%
+        width: calc(66.66666667% - var(---))
     }
-
+    
     .col-xxl-9 {
         flex: 0 0 auto;
-        width: 75%
+        width: calc(75% - var(---))
     }
-
+    
     .col-xxl-10 {
         flex: 0 0 auto;
-        width: 83.33333333%
+        width: calc(83.33333333% - var(---))
     }
-
+    
     .col-xxl-11 {
         flex: 0 0 auto;
-        width: 91.66666667%
+        width: calc(91.66666667% - var(---))
     }
-
+    
     .col-xxl-12 {
         flex: 0 0 auto;
-        width: 100%
+        width: calc(100% - var(---))
     }
 
     .offset-xxl-0 {
