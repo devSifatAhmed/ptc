@@ -8,3 +8,13 @@
 .custom-accordion > .accordion-item > .accordion-header > .accordion-button:not(.collapsed):focus{
     box-shadow: 0 0 0 0.25rem #fd464688;
 }
+@media(max-width: 350px){
+    .support-img{
+        max-width: 250px !important;
+    }
+}
+@media(max-width: 290px){
+    .support-img{
+        max-width: 200px !important;
+    }
+}
